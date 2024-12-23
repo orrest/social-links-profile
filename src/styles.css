@@ -1,1 +1,58 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --grey-900: #141414;
+  --grey-800: #1F1F1F;
+  --grey-700: #333333;
+  --green: #C4F82A;
+  --white: #FFFFFF;
+  --font-size-regular: 14px;
+  --font-size-extra: 24px;
+  --spacing-500: 40px;
+  --spacing-300: 24px;
+  --spacing-200: 16px;
+  --spacing-150: 12px;
+  --spacing-100: 8px;
+  --spacing-50: 4px;
+  --font-weight-400: 400;
+  --font-weight-600: 600;
+  --font-weight-700: 700;
+
+  letter-spacing: 0;
+  line-height: 1.5;
+
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--grey-900);
+  color: white;
+}
+
+.text-preset-1 {
+  font-family: "Inter", sans-serif;
+  font-size: var(--font-size-extra);
+  font-weight: var(--font-weight-700);
+  font-style: normal;
+}
+
+.text-preset-2 {
+  font-family: "Inter", sans-serif;
+  font-size: var(--font-size-regular);
+  font-weight: var(--font-weight-400);
+  font-style: normal;
+}
+
+.text-preset-2-bold {
+  font-family: "Inter", sans-serif;
+  font-size: var(--font-size-regular);
+  font-weight: var(--font-weight-700);
+  font-style: normal;
+  color: var(--green);
+}

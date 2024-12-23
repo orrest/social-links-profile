@@ -1,0 +1,19 @@
+<main>
+  <section>
+    <img src="avatar-jessica.jpeg" width="176" height="176" alt="avatar">
+  </section>
+  <section>
+    <h1 class="text-preset-1"> {{ name }} </h1>
+    <h2 class="text-preset-2-bold"> {{ location }}</h2>
+  </section>
+  <section>
+    <p class="text-preset-2"> {{ intro }}</p>
+  </section>
+  <section>
+    @for (linkName of linkNames; track $index) {
+    <div class="text-preset-2-bold">
+      {{ linkName }}
+    </div>
+    }
+  </section>
+</main>
